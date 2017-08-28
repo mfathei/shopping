@@ -129,7 +129,7 @@ if(isset($_POST['update']))
     }
         ?>
 <br>
-<a href="index.php">Continue Shopping</a>
+<a href="index.php">Continue Shopping</a> |  <a href="checkout.php">Checkout</a>
 
 <?php
 
