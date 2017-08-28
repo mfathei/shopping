@@ -54,7 +54,7 @@ require_once "utils.php";
                 <td><?php echo $data[$i]->desc; ?></td>
                 <td><?php echo $data[$i]->price; ?></td>
                 <td><?php echo $data[$i]->quantity; ?></td>
-                <td><a href="cart.php?id=<?php echo $data[$i]->id; ?>" >
+                <td><a href="cart.php?id=<?php echo $data[$i]->id; ?>&action=add" >
                         Order Now
                     </a></td>
             </tr>
